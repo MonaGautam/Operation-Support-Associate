@@ -1,2 +1,2 @@
-# Operation-Support-Associate
-I am currently working as OSA ( support support associate ) having 3 years of experience in SQL and powerBI and Lens and other tools also.
+# Operation-Support-Analyst
+I am currently working as Production Support Analyst having 3.2 years of experience for SQL/ DB2/ SoupUI/ Lens/ Kibana/ WinSCP/ Linux/ PowerBI/ Tableau/  Excel Dashboard-PowerQuery-Pivot/ Python/ Numpy/ Pandas/ Matplotlib/ Label Encoder/ Linear Logistic Regression/ SVC ( total exp 6 yrs ).
