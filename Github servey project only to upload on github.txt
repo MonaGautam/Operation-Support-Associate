@@ -1,0 +1,36 @@
+Excel Project - Power Query - Survey Data
+I want to share one of my project for Excel. I done the Data Cleaning with the help of Power Query. Below are the details from step 1 to End what I did to clean the Data. I hope that will be helpful to people who wants to learn the basic knowledge for Power Query in excel.
+1. I used the Survey Data. Which one having 36 row ( including the first row as data only ) and 10 column.
+2. Then I click one of any field then go to DATA then in data there is a 'From Table' option. Click on that then your Data will be change in Power Query Table. Now will be able to apply power query option on your Data.
+ 3. Now the data having some null value so remove null value , select all ( press ctlr + A to select all ) then in Home tab there is option for "Remove Row' there is option 'remove blank rows'.
+4. Data having some duplicate value also.
+(a) Duplicate value only in one column.
+(b) Duplicate value like for all column having same value that will be one of duplicate.
+Now need to remove this (b) type of duplicate value. We are not removing (a) type of duplicate value coz from this we will having also duplicate value. from option (b) we can have a clean data what will not having any duplicate rows twice.
+So we will go same as point 3, select all then go to remove rows then 'remove duplicate value' option then our duplicate data will be deleted.
+Now we have 29 rows only.
+
+Here ( for point 3 and 4 ) we are selecting all data, not applying for single row or more then 1 row. Coz if we apply condition for selecting data then that condition will work for selected row only, that's why we have selected all data.
+5. For now we are having heading as row first, that heading should be in first work. So we will to go to Data, now we are having 2 option.
+(a) use first row as header
+(b) use headred as first row.
+we use condition (a) when we have heading in first row. To use that first row as header.
+we use (b) when we have heading that should be in row first.
+here we use option (b) to use header as first row.
+Now we are having 29 rows after applying these above points.
+6. Now we will rename the columns accordingly.
+7. Now we will update the data type for all. for example -
+For text column we choose the 'Text' data type
+For 'Date and time' column choose the Date data type, now are hvaing only date, not date and time both
+For number column choose the 'whole number' data type.
+After change the data type we may have some error in number column 'coz some number have the text type and we changed them as number.
+8. As for now we have some error so need to remove those errors. If we remove error for selecting 1 column at 1 time then we will have less rows coz for removing one error it will remove whole row. and for this data as of now we have 3 error. So we will replace the error with 0 ( or whatever you want to replace with ).
+Now errors replaced with 0 and we have still same data ( 29 rows and 6 column ).
+Now data cleaned completely.
+9. For now the data seems less ( as having only 29 rows ) and for good data we should have many rows.
+So now we will change column into rows. Last 6 column ( sale 1 top sale 6 column ). Select those 6 column now go to option 'Tranform' there is option 'Unpivot column' using that our data ( those 6 column ) will change into rows. Now we have 174 rows and 6 column. Rename last 2 coulmn accordingly.
+Now our data have cleaned completely.
+Save the data from 'File' - 'close and loads to' - 'table'- 'new work sheet'.
+Our Data saved in same table in new worksheet.
+
+Hope this will work and help to get basic info for Power Query and also it is showing my skills for Advance excel for use Power Query.
